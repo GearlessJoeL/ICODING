@@ -68,5 +68,6 @@ bool blstr_substr(BLString src, int pos, int len, BLString* sub)
     }
 
     sub->tail = cur;
+	
     return 1;
 }
